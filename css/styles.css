@@ -15,7 +15,7 @@
     font-family: Lato;
     font-size: 4vh;
     color: #2D2D2D;
-    margin: 2.4vh 0vh 0vh 2vh;
+    margin: 2.5vh 0vh 0vh 2vh;
 }
 
 .menu {
@@ -28,10 +28,11 @@
 
 .page {
     color: #646464;
+    transition: 0.3s;
 }
 
 .page:hover {
-    color: #2D2D2D;
+    color: #323232;
 }
 
 .page:active {
@@ -39,17 +40,17 @@
 }
 
 .page_current {
-    color: #2D2D2D;
+    color: #323232;
 }
 
 .info {
     width: 80vmin;
-    margin: 10vh 0vh 0vh 10vw;
+    margin: 5vw 0vw 0vw 10vw;
 }
 
 .content {
-    width: 80vmin;
-    margin: 10vh 0vh 0vh 10vw;
+    width: 90vmin;
+    margin: 5vw 0vw 0vw 5vw;
     text-align: justify;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .inline {
-    width: 80vmin;
+    width: 90vmin;
     margin: 2vh 0vh 2vh 0vh;
 }
 
@@ -84,7 +85,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #646464;
-    border-radius: 2px;
+    border-radius: 0.5vh;
     width: 30vh;
     height: 6vh;
     color: #2D2D2D;
@@ -137,7 +138,7 @@ footer {
 .menu > ul > li {
     display: inline;
     color: #2D2D2D;
-    margin: 0vh 1vh 0vh 0vh;
+    margin: 0vh 0vh 0vh 2vh;
     list-style-type: none;
     text-align: right;
 }
