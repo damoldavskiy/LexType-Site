@@ -6,16 +6,22 @@
 .logo {
     float: left;
     margin: 3vh 0vh 0vh 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo_image {
+    float: left;
     width: 4vh;
     height: 4vh;
 }
 
-.title {
-    float: left;
+.logo_title {
+    float: right;
+    margin: 0vh 0vh 0vh 2vh;
     font-family: Lato;
     font-size: 4vh;
     color: #2D2D2D;
-    margin: 2.5vh 0vh 0vh 2vh;
 }
 
 .menu {
@@ -103,10 +109,20 @@
 }
 
 .telegram {
-    font-family: Lato;
-    font-size: 2.5vh;
     float: right;
     margin: 0vh 3vh 3vh 0vh;
+    display: flex;
+    align-items: center;
+}
+
+.telegram_logo {
+    width: 4vh;
+    height: 4vh;
+}
+
+.telegram_text {
+    font-family: Lato;
+    font-size: 2.5vh;
     color: #646464;
 }
 
@@ -124,10 +140,17 @@ header {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0vh;
     bottom: 0vh;
+    margin: 10vh 0vh 0vh 0vh;
+}
+
+@media only screen and (orientation: landscape) {
+  footer {
+      position: fixed;
+  }
 }
 
 .menu > ul {
