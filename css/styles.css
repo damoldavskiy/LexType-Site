@@ -19,9 +19,7 @@
 .logo_title {
     float: right;
     margin: 0vh 0vh 0vh 2vh;
-    font-family: Lato;
-    font-size: 4vh;
-    color: #2D2D2D;
+    height: 4vh;
 }
 
 .menu {
@@ -140,11 +138,9 @@ header {
 }
 
 footer {
-    position: relative;
     width: 100%;
     left: 0vh;
     bottom: 0vh;
-    margin: 10vh 0vh 0vh 0vh;
 }
 
 @media only screen and (orientation: landscape) {
