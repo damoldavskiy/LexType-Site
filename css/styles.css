@@ -18,8 +18,9 @@
 
 .logo_title {
     float: right;
-    margin: 0vh 0vh 0vh 2vh;
-    height: 4vh;
+    margin: 0vh 0vh 0vh 3vh;
+    font-family: Lato;
+    font-size: 4vh;
 }
 
 .menu {
